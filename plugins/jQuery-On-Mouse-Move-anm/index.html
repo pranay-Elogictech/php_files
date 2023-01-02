@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>jQuery anm Plugin Demos</title>
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="page.css" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+  <![endif]-->
+
+</head>
+<body data-anm=".anm">
+
+<div class="btn-group" data-toggle="buttons">
+    <label class="btn btn-default active" onclick="anm.on();">
+      <input type="radio" name="options" id="on" checked> On
+    </label>
+    <label class="btn btn-default" onclick="anm.off();">
+      <input type="radio" name="options" id="off"> Off
+    </label>
+  </div>
+
+  <div class="container-fluid text-center">
+    <h4 class="anm" data-speed-y="-2" data-speed-scale="-15" data-speed-opacity="50">jQuery</h4>
+    <h3 class="anm" data-speed-x="4" data-speed-scale="-25" data-speed-opacity="50">Plugins</h3>
+    <h1 class="anm" data-speed-x="-16" data-speed-y="2" data-speed-scale="50" data-speed-rotate="25">Anm</h1>
+    <h2 class="anm" data-speed-x="16" data-speed-y="-2" data-speed-scale="50" data-speed-rotate="-25"><a href="http://www.jqueryscript.net/">jQuery</a></h2>
+    <h3 class="anm" data-speed-x="-4" data-speed-scale="-25" data-speed-opacity="50">Script</h3>
+    <h4 class="anm" data-speed-y="2" data-speed-scale="15" data-speed-opacity="50">Net</h4>
+    <br>
+    <p class="anm text-muted" data-speed-x="2" data-speed-y="-1">&copy; 2014-2015 Andrey Polischuk</p>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="anm.min.js"></script>
+
+</body>
+</html>

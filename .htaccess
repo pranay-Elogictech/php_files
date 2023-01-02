@@ -1,0 +1,7 @@
+#remove php file extension-e.g. https://example.com/file.php will become https://example.com/file 
+RewriteEngine on
+#RewriteRule status http://eltedge.io:8000/status [NC,L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
+

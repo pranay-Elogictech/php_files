@@ -1,0 +1,29 @@
+[25-Jul-2022 11:51:15 UTC] PHP Notice:  Undefined index: HOST_NAME in /home/yyczk61sw922/public_html/includes/menu.php on line 3
+[25-Jul-2022 11:51:26 UTC] PHP Notice:  Undefined index: HOST_NAME in /home/yyczk61sw922/public_html/includes/menu.php on line 3
+[25-Jul-2022 11:51:28 UTC] PHP Notice:  Undefined index: HOST_NAME in /home/yyczk61sw922/public_html/includes/menu.php on line 3
+[25-Jul-2022 11:51:30 UTC] PHP Notice:  Undefined index: HOST_NAME in /home/yyczk61sw922/public_html/includes/menu.php on line 3
+[25-Jul-2022 11:51:31 UTC] PHP Notice:  Undefined index: HOST_NAME in /home/yyczk61sw922/public_html/includes/menu.php on line 3
+[25-Jul-2022 11:51:31 UTC] PHP Notice:  Undefined index: HOST_NAME in /home/yyczk61sw922/public_html/includes/menu.php on line 3
+[25-Jul-2022 11:51:33 UTC] PHP Notice:  Undefined index: HOST_NAME in /home/yyczk61sw922/public_html/includes/menu.php on line 3
+[25-Jul-2022 12:22:09 UTC] PHP Notice:  Undefined index: SERVER_SELF in /home/yyczk61sw922/public_html/includes/footer_links.php on line 5
+[25-Jul-2022 12:22:35 UTC] PHP Notice:  Undefined index: SERVER_SELF in /home/yyczk61sw922/public_html/includes/footer_links.php on line 5
+[25-Jul-2022 12:39:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function emptyempty() in /home/yyczk61sw922/public_html/includes/footer_links.php:2
+Stack trace:
+#0 /home/yyczk61sw922/public_html/services.php(106): include()
+#1 {main}
+  thrown in /home/yyczk61sw922/public_html/includes/footer_links.php on line 2
+[25-Jul-2022 12:39:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function emptyempty() in /home/yyczk61sw922/public_html/includes/footer_links.php:2
+Stack trace:
+#0 /home/yyczk61sw922/public_html/index.php(1523): include()
+#1 {main}
+  thrown in /home/yyczk61sw922/public_html/includes/footer_links.php on line 2
+[25-Jul-2022 12:39:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function emptyempty() in /home/yyczk61sw922/public_html/includes/footer_links.php:2
+Stack trace:
+#0 /home/yyczk61sw922/public_html/index.php(1523): include()
+#1 {main}
+  thrown in /home/yyczk61sw922/public_html/includes/footer_links.php on line 2
+[25-Jul-2022 12:39:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function emptyempty() in /home/yyczk61sw922/public_html/includes/footer_links.php:2
+Stack trace:
+#0 /home/yyczk61sw922/public_html/index.php(1523): include()
+#1 {main}
+  thrown in /home/yyczk61sw922/public_html/includes/footer_links.php on line 2
